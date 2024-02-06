@@ -1,0 +1,9 @@
+appId: com.qazandoqafood
+---
+- launchApp
+- repeat:
+    while:
+      notVisible: "11233"
+    commands:
+        - tapOn: "login-button"
+        
